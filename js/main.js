@@ -1,4 +1,4 @@
-// ========== PULSE MARKETING - MAIN JS ==========
+// ========== BRAVA - ESTUDIO DE MARKETING - MAIN JS ==========
 
 // Configuración de EmailJS
 // IMPORTANTE: Reemplaza estos valores con tus credenciales de EmailJS

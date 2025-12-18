@@ -1,17 +1,17 @@
-/* ========== PULSE MARKETING - CUSTOM STYLES ========== */
+/* ========== BRAVA - ESTUDIO DE MARKETING - CUSTOM STYLES ========== */
 
-/* Variables de Color - Paleta Coral + Turquesa */
+/* Variables de Color - Paleta Dusty Rose */
 :root {
-    --primary: #FF6B6B;        /* Coral vibrante */
-    --secondary: #4ECDC4;      /* Turquesa */
-    --accent: #FFE66D;         /* Amarillo suave */
-    --dark: #2D3142;           /* Gris oscuro */
-    --light: #F7F9FB;          /* Blanco suave */
+    --primary: #9F7676;        /* Dusty rose principal */
+    --secondary: #B08A8A;      /* Rose claro */
+    --accent: #8B6B6B;         /* Rose oscuro */
+    --dark: #3D3232;           /* Marrón oscuro */
+    --light: #FAF7F5;          /* Beige suave */
     --white: #FFFFFF;
 
-    --gradient-primary: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
-    --gradient-secondary: linear-gradient(135deg, #4ECDC4 0%, #6FE4DB 100%);
-    --gradient-accent: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);
+    --gradient-primary: linear-gradient(135deg, #9F7676 0%, #B08A8A 100%);
+    --gradient-secondary: linear-gradient(135deg, #B08A8A 0%, #C9ADAD 100%);
+    --gradient-accent: linear-gradient(135deg, #9F7676 0%, #8B6B6B 100%);
 
     --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -28,7 +28,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: var(--dark);
     background-color: var(--white);
     line-height: 1.6;
@@ -81,9 +81,10 @@ section {
 }
 
 .brand-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.8rem;
-    font-weight: 900;
+    font-weight: 700;
+    letter-spacing: 0.05em;
     background: var(--gradient-accent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -179,9 +180,9 @@ section {
 }
 
 .hero-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 4rem;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 1.5rem;
     line-height: 1.1;
 }
@@ -305,9 +306,9 @@ section {
 }
 
 .section-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 
@@ -680,9 +681,10 @@ section {
 }
 
 .footer-brand {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.75rem;
-    font-weight: 900;
+    font-weight: 700;
+    letter-spacing: 0.05em;
     margin-bottom: 0.5rem;
     background: var(--gradient-accent);
     -webkit-background-clip: text;
